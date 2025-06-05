@@ -1,0 +1,23 @@
+{
+  "name": "mugiwara-bot",
+  "version": "1.0.0",
+  "description": "Bot WhatsApp sur le thème de One Piece par Plag tech",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": ["whatsapp", "bot", "baileys", "one-piece", "mugiwara"],
+  "author": "Plag tech",
+  "license": "ISC",
+  "dependencies": {
+    "@whiskeysockets/baileys": "latest",
+    "dotenv": "^16.3.1",
+    "pino": "^8.17.2",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
